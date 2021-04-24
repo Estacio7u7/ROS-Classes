@@ -66,6 +66,7 @@ Going to the .launch containing folder, we can open and edit this in any text ed
 Let's save, kill the process and repeat the steps 2 and 3. Now we can control the arbotix rbx1 robot inside the rviz environment with the teleop_key characteristic from the ROS turtle bot example.
 
 **Fourth part: changing parameters inside a command line**
+
 Let's change the speed of the rbx1 movement directly from command line. This is not permanent, and everytime the next time we start the example the speed will be by default.
 
 The command line is as follows:
