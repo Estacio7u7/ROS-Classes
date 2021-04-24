@@ -1,9 +1,9 @@
-ROS_firstCourtClass
+ROS_Course
 =============================
 
 This is the 9th semester class, ROS, took in 2021-1. This are notes taken in class.
 
-RBX1 Robot Example
+RBX1 Robot
 ============================
 
 **First Part: Install RBX1 repository**
