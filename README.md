@@ -1,7 +1,7 @@
-ROS_Course
+ROS Cathedra
 =============================
 
-This is the 9th semester class, ROS, took in 2021-1. This are notes taken in class.
+This is the 9th semester class, ROS, took in 2021-1. This are notes taken in first court project exercise.
 
 RBX1 Robot
 ============================
