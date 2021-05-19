@@ -5,13 +5,17 @@
   <arg name="urdf_file" default="$(find xacro)/xacro.py '$(find rbx1_description)/urdf/turtlebot.urdf.xacro'" />
    
   <param name="robot_description" command="$(arg urdf_file)" />
-    
+   
+  <!-- Create a new node named arbotix from the arbotix_python package. The "type" argument is filled with the filename of the executable script -->
   <node name="arbotix" pkg="arbotix_python" type="arbotix_driver" output="screen" clear_params="true">
       <rosparam file="$(find rbx1_bringup)/config/fake_turtlebot_arbotix.yaml" command="load" />
       <param name="sim" value="true"/>
+      
+      <!-- change the name of a topic inside this node, it's an easy way to modify parámeters -->
       <remap from="/cmd_vel" to="/turtle1/cmd_vel"/>
   </node>
   
+  <!-- New node created to modify the publishing frequency -->
   <node name="robot_state_publisher" pkg="robot_state_publisher" type="state_publisher">
       <param name="publish_frequency" type="double" value="20.0" />
   
