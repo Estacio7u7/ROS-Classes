@@ -63,7 +63,7 @@ Going to the .launch containing folder, we can open and edit this in any text ed
 ```
 <remap from="/cmd_vel" to="/turtle1/cmd_vel"/>
 ```
-Let's save, kill the process and repeat the steps 2 and 3. Now we can control the arbotix rbx1 robot inside the rviz environment with the teleop_key characteristic from the ROS turtle bot example.
+Let's save, kill the process and repeat the steps 2 and 3. Now we can control the arbotix rbx1 robot inside the rviz environment with the teleop_key characteristic from the ROS turtle bot example.To be sure, I let you the modified launch file uploaded here.
 
 **Fourth part: changing parameters inside a command line**
 
